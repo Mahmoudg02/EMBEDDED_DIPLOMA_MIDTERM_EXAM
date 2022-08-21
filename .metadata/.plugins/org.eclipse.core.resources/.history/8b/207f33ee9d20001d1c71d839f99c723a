@@ -1,0 +1,59 @@
+/*
+ * main.c
+ *
+ *  Created on: 20 Aug 2022
+ *      Author: MAshr
+ */
+
+/*
+ * 9)c function to reverse words in string?
+   test case :   input: mohamed gamal. output:gamal mohamed.
+ *
+ */
+
+
+#include <stdio.h>
+
+
+void print_reversed_words(int arr[] , int size );
+
+int main(int argc, char **argv) {
+
+	char case1[100] ;
+
+	case1 = "mahmoud ashraf farouk" ;
+
+}
+
+
+void print_reversed_words(char arr[] ){
+	int size=0  ;
+
+	while (arr[size])
+		size++ ;
+	size -- ;
+
+int i , j , k ;
+
+	for (i = size ;i>=0; i--)
+	{
+		if (arr[i]==' ')
+		{
+			for (j=i ;j<size-i ;j++)
+				printf("%c",arr[j]);
+
+			printf(" ");
+			size=i ;
+
+		}
+
+	}
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+/*
+ * main.c
+ *
+ *  Created on: 20 Aug 2022
+ *      Author: MAshr
+ */
+
+/*
+ * 9)c function to reverse words in string?
+   test case :   input: mohamed gamal. output:gamal mohamed.
+ *
+ */
+
+
+#include <stdio.h>
+
+
+int max_ones(int );
+
+int main(int argc, char **argv) {
+
+	int	case1=14 ;
+
+	max_ones(case1);
+
+}
+
+
+int max_ones(int num ){
+	int max , count =0 ;
+	int j =0 ;
+	while (num&(1<<j)==1)
+	{
+		j++ ;
+	}
+	for ( ;j<sizeof(int)*8 ;j++)
+	{
+		if (num&(1<<j)==1)
+		{
+			count ++ ;
+			max=(count>max)?count:max ;
+		}
+		else
+			count =0 ;
+
+	}
+
+	return max ;
+
+}
+
+
+
+
+
+
+

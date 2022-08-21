@@ -1,0 +1,73 @@
+18:25:38 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'max_ones':
+..\main.c:32:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while (num&(1<<j)==1)
+             ~~~~~~^~~
+..\main.c:38:17: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   if (num&(1<<j)==1)
+           ~~~~~~^~~
+gcc -o Q10.exe main.o 
+18:25:59 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q9.exe main.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+18:26:34 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'max_ones':
+..\main.c:32:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while (num&(1<<j)==1)
+             ~~~~~~^~~
+..\main.c:38:17: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   if (num&(1<<j)==1)
+           ~~~~~~^~~
+gcc -o Q10.exe main.o 
+Info: Nothing to build for Q10
+18:26:50 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'max_ones':
+..\main.c:32:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while (num&(1<<j)==1)
+             ~~~~~~^~~
+..\main.c:38:17: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   if (num&(1<<j)==1)
+           ~~~~~~^~~
+gcc -o Q10.exe main.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+18:29:06 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'max_ones':
+..\main.c:32:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while (num&(1<<j)==1)
+             ~~~~~~^~~
+gcc -o Q10.exe main.o 
+18:29:17 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q10.exe main.o 
+Info: Nothing to build for Q10
+18:30:21 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q10.exe main.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+18:32:15 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q10.exe main.o 
+Info: Nothing to build for Q10
+18:32:30 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q10.exe main.o 
+Info: Nothing to build for Q10
